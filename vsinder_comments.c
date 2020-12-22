@@ -40,9 +40,7 @@ L threeCharsToNum(O*o)
 main()
 {
     //H 72 e 101 l 108 o 111 , 44
-    //obfuscate by generating the numbers using countHowManyBinaryOnesAreInACharacter
-    //then multiplying them by the base10 index 2 1 0
-    //each character will be xored
+    //generate the numbers using countHowManyBinaryOnesAreInACharacter
     O*s="\0\x7F!@\0  \0\xFF   \0:9";
     O b[6] = {threeCharsToNum(s),
         threeCharsToNum(3 + s),
